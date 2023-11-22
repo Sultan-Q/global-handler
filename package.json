@@ -1,0 +1,25 @@
+{
+  "name": "handle-this",
+  "version": "1.0.0",
+  "description": "(handle-this) is a ⚡️ lightweight tiny package with ZERO-Dependencies that simplifies error handling in Express.js by eliminating the need for manual try-catch blocks in every API request. 🚀",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sultan-Q/handle-this.git"
+  },
+  "keywords": [
+    "expressjs",
+    "api",
+    "error",
+    "handler"
+  ],
+  "author": "Sultiano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sultan-Q/handle-this/issues"
+  },
+  "homepage": "https://github.com/Sultan-Q/handle-this#readme"
+}
