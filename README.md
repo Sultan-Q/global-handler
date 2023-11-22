@@ -1,35 +1,35 @@
-# handle-this
+# global-handler
 
-(handle-this) is a ⚡️ lightweight tiny package with ZERO-Dependencies that simplifies error handling in Express.js by eliminating the need for manual try-catch blocks in every API request. 🚀
+(global-handler) is a ⚡️ lightweight tiny package with ZERO-Dependencies that simplifies error handling in Express.js by eliminating the need for manual try-catch blocks in every API request. 🚀
 
 ## Installation
 
 You can install HandleThis using npm:
-`npm install handle-this`
+`npm install global-handler`
 
 ## Usage
 
 To use HandleThis in your Express.js application, import it and wrap your route handlers with the provided middleware. Here's an example:
 
-To import the `handle-this` package, you have two options depending on your environment:
+To import the `global-handler` package, you have two options depending on your environment:
 
 - ES6-style import:
 
   ```javascript
-  import handleThis from "handle-this";
+  import handleThis from "global-handler";
   ```
 
 - CommonJS-style require:
 
 ```javascript
-const handleThis = require("handle-this");
+const handleThis = require("global-handler");
 ```
 
 ## Example
 
 ```javascript
 const express = require("express");
-const handleThis = require("handle-this");
+const handleThis = require("global-handler");
 
 const app = express();
 
